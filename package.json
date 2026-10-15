@@ -1,0 +1,63 @@
+{
+  "author": {
+    "email": "hello@nativeship.io",
+    "name": "nativeship",
+    "url": "https://github.com/nativeship"
+  },
+  "description": "TidyCal is an online scheduling tool for booking pages, appointment management, and paid bookings",
+  "devDependencies": {
+    "@n8n/node-cli": "0.41.2",
+    "@types/node": "22.15.29",
+    "eslint": "9.29.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "\u003e=22.22.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/nativeship/n8n-nodes-tidycal",
+  "keywords": [
+    "n8n-community-node-package",
+    "nativeship",
+    "nativeship-nodes",
+    "n8n",
+    "tidycal",
+    "n8n-node",
+    "appointment-scheduling",
+    "calendar-bookings",
+    "booking-management",
+    "scheduling-automation"
+  ],
+  "license": "MIT",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/Tidycal/Tidycal.node.js"
+    ],
+    "strict": true
+  },
+  "name": "@nativeship/n8n-nodes-tidycal",
+  "nativeShip": {
+    "artifactSha256": "36ee34077d6b770fbe4fcfcc65405266e48de815b1ac648584c12c11a3fc3740"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativeship/n8n-nodes-tidycal.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix"
+  },
+  "version": "1.0.0"
+}
